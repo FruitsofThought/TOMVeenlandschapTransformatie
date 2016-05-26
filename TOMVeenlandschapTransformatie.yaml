@@ -1,0 +1,48 @@
+scene:
+    background:
+        color: '#000000'
+
+cameras:
+    perspective:
+        type: perspective
+        vanishing_point: [0, -500]
+
+lights:
+    light1:
+        type: directional
+        direction: [.1, .5, -1]
+        diffuse: .7
+        ambient: .5
+
+sources:
+    mapzen:
+        type: TopoJSON
+        url:  http://vector.mapzen.com/osm/all/{z}/{x}/{y}.topojson
+    MB:
+        type: TopoJSON
+        url:  http://nl.tiles.mountbatten.nl:82/all/{z}/{x}/{y}.topojson
+
+layers:
+    earth:
+        data: { source: mapzen }
+        draw:
+            polygons:
+                order: 0
+                color: "#000"
+            lines:
+                order: 0
+                color: "#fff"
+                width: 100
+
+    water:
+        data: { source: MB }
+        filter:
+            kind: ["ditch","drain","canal"]
+        draw:
+            polygons:
+                order: 2
+                color: '#fff'
+            lines:
+                order: 3
+                color: '#fff'
+                width: 100

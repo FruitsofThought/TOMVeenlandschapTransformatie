@@ -1,0 +1,11 @@
+locale: en
+phrases:
+    scenes:
+        TOMVeenlandschapTransformatie:
+            name: Moor landscape transformation
+            group: Landscape
+            description: >
+                This map shows the waterways enlarged. The difference between artificial
+                straight canals and natural meandering old riverbeds is clearly visible.
+                For example in the area between Amsterdam, The Hague and Rotterdam, also
+                called, the Green Heart.

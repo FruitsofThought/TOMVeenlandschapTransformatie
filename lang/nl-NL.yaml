@@ -1,0 +1,10 @@
+locale: nl
+phrases:
+    scenes:
+        TOMVeenlandschapTransformatie:
+            name: Transformatie van het Veenlandschap
+            group: Landschap
+            description: >
+                Deze kaart benadrukt waterwegen. Hierdoor wordt het verschil tussen
+                kunstmatig aangelegde kanalen en sloten en oude meanderende rivierbeddingen
+                zichtbaar. Vooral in Zuid-Holland is dit goed zichtbaar.
