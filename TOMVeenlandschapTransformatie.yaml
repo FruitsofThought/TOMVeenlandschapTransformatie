@@ -17,10 +17,10 @@ lights:
 sources:
     mapzen:
         type: TopoJSON
-        url:  http://vector.mapzen.com/osm/all/{z}/{x}/{y}.topojson
+        url:  https://vector.mapzen.com/osm/all/{z}/{x}/{y}.topojson
     MB:
         type: TopoJSON
-        url:  http://nl.tiles.mountbatten.nl:82/all/{z}/{x}/{y}.topojson
+        url:  https://tiles.mountbatten.nl/all/{z}/{x}/{y}.topojson
 
 layers:
     earth:

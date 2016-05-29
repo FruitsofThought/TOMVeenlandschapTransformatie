@@ -17,11 +17,6 @@ define(
       get path() {
         return require.toUrl("./").split('?')[0];
       }
-      get legend() {
-        var legend = [];
-        legend['items'] = [];
-        return legend;
-      };
     };
 
     return new TOMVeenlandschapTransformatie();

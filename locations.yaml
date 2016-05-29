@@ -2,7 +2,6 @@
 locationsList:
     -
         title: Zuid-Holland
-        latlng:
-            - 52.0495
-            - 4.7701
+        lat: 52.0495
+        lon: 4.7701
         zoom: 10
